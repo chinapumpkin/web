@@ -33,7 +33,7 @@ sudo wget http://www.wowza.com/downloads/tutorials/live/Application.xml
 
 *Note: if you have configured Wowza to not run as root (and you should have), make sure that the live folder and the `Application.xml` file are accessible from the proper user.*
 
-### 2 - Set a password for the RTSP server of Wowza
+### Set a password for the RTSP server of Wowza
 
 The RTSP server of Wowza can be configured to require user authentication. By default, it is configured to require user authentication to publish a stream, but not to play one. The MobileserviceTool will need this login and password pair to successfully stream to Wowza. That is why you have to add one in the [install-dir]/conf/admin.password file.
 
@@ -45,7 +45,7 @@ You can also choose to disable user authentication to publish a stream. To do th
 
 **Note: as of libstreaming 3.0, digest authentication is the only authentication scheme supported by the RTSP client.**
 
-### 3 - Restart your Wowza Media Server
+### Restart your Wowza Media Server
 
 Finally, you need to restart Wowza.
 
