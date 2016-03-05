@@ -57,7 +57,7 @@ sudo service WowzaMediaServer restart
 
 [Find out how to start/stop your WowzaMediaServer here](http://www.wowza.com/forums/content.php?217#startService)
 
-## Step 3 - Streaming to the Wowza Media Server
+## Streaming to the Wowza Media Server   
 
 Start the app called "MobileserviceTool" on your phone. Normally, you should see the video from the front camera of the phone as soon as the app starts. 
 Fill the fields login and password with the username and password you chose earlier in the `publish.password` file.
@@ -78,7 +78,7 @@ If that doesn't work, you may have connection issues, firewall issues or NAT iss
 
 * You will find plenty of useful logs in `logcat`.
 
-## Step 4 - Reception of the stream in the flash player
+## Reception of the stream in the flash player
 
 ### 1 - Install the demo site on the HTTP server
 
